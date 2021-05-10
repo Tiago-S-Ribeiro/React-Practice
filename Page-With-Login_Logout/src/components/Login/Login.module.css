@@ -34,13 +34,13 @@
 
 .control input:focus {
   outline: none;
-  border-color: #4f005f;
-  background: #f6dbfc;
+  border-color: #ccc;
+  background: white;
 }
 
 .control.invalid input {
   border-color: red;
-  background: #fbdada;
+  background: white;
 }
 
 .actions {
