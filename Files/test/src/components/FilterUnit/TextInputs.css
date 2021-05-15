@@ -1,0 +1,15 @@
+.input-controls {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+.input-controls input {
+    /* margin-right: 0; */
+    margin-left: 6.5rem;
+}
+
+.input-controls label {
+    padding-top: 0.3rem;
+    float: left;
+}

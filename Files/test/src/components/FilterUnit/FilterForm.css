@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bolder;
+    color: black;
+}
+
+.div-x {
+    background-color: aqua;
+}
+
+.div-y {
+    background-color: brown;
+}
+
+.select-filter {
+    
+}
+
+.select-dropdown {
+    width: 150px;
+}

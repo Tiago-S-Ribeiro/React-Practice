@@ -1,0 +1,8 @@
+.date-controls {
+    display: inline;
+    padding: 0.4rem 0 0.4rem 0;
+}
+
+.date-controls input {
+    width: 7.5rem;
+}

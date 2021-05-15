@@ -1,0 +1,8 @@
+.dropdowns-controls {
+    display: block;
+    padding: 0.4rem 0 0.4rem 0;
+}
+
+.dropdowns-controls select{
+    width: 7.5rem;
+}
