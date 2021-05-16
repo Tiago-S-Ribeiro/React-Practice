@@ -1,4 +1,18 @@
-.radio-controls {
-    display: inline-block;
-    padding: 0.4rem 0 0.4rem 0;
+.first-radio-div {
+    margin-top: 0.5rem;
+    margin-right: 1.2rem;
+}
+
+.second-radio-div {
+    margin-top: 0.5rem;
+    margin-right: -1.9rem;
+}
+
+.third-radio-div {
+    margin-top: 0.5rem;
+    margin-right: 0.48rem;
+}
+
+.radio-title-label {
+    float: left;
 }

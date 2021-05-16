@@ -4,36 +4,22 @@ import './RadioButtons.css'
 const RadioButtons = () => {
     return (
         <React.Fragment>
-            <div>
-                <label htmlFor="bloomberg">Bloomberg Linker:</label>
-                <div id="bloomberg" className="radio-controls">
-                    <input type="radio" id="DES" name="bloomberg_linker" value="DES" />
-                    <label htmlFor="DES">DES</label>
-                    <input type="radio" id="ALLQ" name="bloomberg_linker" value="ALLQ" />
-                    <label htmlFor="ALLQ">ALLQ</label>
-                    <input type="radio" id="YASQ" name="bloomberg_linker" value="YASQ" />
-                    <label htmlFor="other">YASQ</label>
-                </div>
+            <div className="first-radio-div">
+                <label className="radio-title-label">Bloomberg Linker:</label>  
+                <input type="radio" value="DES" name="bloomberg_linker"/>DES  
+                <input type="radio" value="ALLQ" name="bloomberg_linker"/>ALLQ
+                <input type="radio" value="YASQ" name="bloomberg_linker"/>YASQ
             </div>
-            <div>
-                <label htmlFor="axis">Axis Way:</label>
-                <div id="axis" className="radio-controls">
-                    <input type="radio" id="BOTH" name="axis_way" value="BOTH" />
-                    <label htmlFor="BOTH">Both</label>
-                    <input type="radio" id="BUY" name="axis_way" value="BUY" />
-                    <label htmlFor="BUY">Buy</label>
-                    <input type="radio" id="SELL" name="axis_way" value="SELL" />
-                    <label htmlFor="SELL">Sell</label>
-                </div>
+            <div className="second-radio-div">
+                <label className="radio-title-label">Axis Way:</label>  
+                <input type="radio" value="BOTH" name="axis_way"/>BOTH  
+                <input type="radio" value="BUY" name="axis_way"/>BUY
+                <input type="radio" value="SELL" name="axis_way"/>SELL
             </div>
-            <div>
-                <label htmlFor="show">Axis Way:</label>
-                <div id="show" className="radio-controls">
-                    <input type="radio" id="ALL" name="show_all_axes" value="ALL" />
-                    <label htmlFor="ALL">All</label>
-                    <input type="radio" id="AXES" name="show_all_axes" value="AXES" />
-                    <label htmlFor="AXES">Axes</label>
-                </div>
+            <div className="third-radio-div">
+                <label className="radio-title-label">Show:</label>  
+                <input type="radio" value="ALL" name="show"/>ALL  
+                <input type="radio" value="AXES" name="show"/>AXES
             </div>
         </React.Fragment>
     );
