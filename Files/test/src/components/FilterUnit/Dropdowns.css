@@ -6,3 +6,13 @@
 .dropdowns-controls select{
     width: 7.5rem;
 }
+
+.dropdowns-controls label {
+    float: left;
+    padding-left: 0.2rem;
+}
+
+select {
+    border-radius: 1rem;
+    border: 0.1px solid black;
+}

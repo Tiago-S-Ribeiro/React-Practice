@@ -3,7 +3,7 @@ import './NumberInputs.css';
 
 const NumberInputs = () => {
     return(
-        <div>
+        <div className="number-input-controls">
             <label>Axis Size From (M)</label>
             <input type="number" min="0" />
             <label>To</label>
