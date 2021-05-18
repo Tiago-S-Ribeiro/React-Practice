@@ -10,7 +10,7 @@ const Datepickers = () => {
         <div className="date-controls">
             <label id="maturity-from">Maturity From </label>
             <input type="date" min={date} />
-            <label id="maturity-to">To</label>
+            <label id="maturity-to">To </label>
             <input type="date" min="2020-01-01" />
         </div>
     );

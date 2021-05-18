@@ -1,18 +1,26 @@
 .dropdowns-controls {
     display: block;
-    padding: 0.4rem 0 0.4rem 0;
+    padding: 0.2rem 0 0.4rem 0.5rem;
 }
 
-.dropdowns-controls select{
-    width: 7.5rem;
-}
+.multiselect-override {
+    margin-left: 4rem;
+    width: 10rem;
+    --rmsc-h: 1.2rem !important;
+    --rmsc-radius: 1rem !important;
+    --rmsc-border: black;
+    font-size: smaller;
+    font-weight: bolder;
+} 
+
+/* .dropdowns-controls pre {
+    margin-top: 0;
+    margin-bottom: 0.2rem;
+    margin-left: 1rem;
+    font-family: 'Roboto', sans-serif;
+} */
 
 .dropdowns-controls label {
+    padding-top: 0.3rem;
     float: left;
-    padding-left: 0.2rem;
-}
-
-select {
-    border-radius: 1rem;
-    border: 0.1px solid black;
 }

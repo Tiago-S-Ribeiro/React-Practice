@@ -1,10 +1,42 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Dropdowns.css';
+import MultiSelect from "react-multi-select-component";
 
 const Dropdowns = () => {
+    const countryOptions = [
+        { label: "Grapes ", value: "grapes" },
+        { label: "Mango 🥭", value: "mango" },
+        { label: "Strawberry 🍓", value: "strawberry"},
+        { label: "Watermelon 🍉", value: "watermelon" },
+        { label: "Pear 🍐", value: "pear" },
+        { label: "Apple 🍎", value: "apple" },
+        { label: "Tangerine 🍊", value: "tangerine" },
+        { label: "Pineapple 🍍", value: "pineapple" },
+        { label: "Peach 🍑", value: "peach" },
+    ];
+
+    const [selected, setSelected] = useState(countryOptions);
+
     return (
+        
         <React.Fragment>
-                <div className="dropdowns-controls">
+            <div className="dropdowns-controls">
+                {/* <span>Country:</span> */}
+                <label>Country:</label>
+                {/* <pre>Country:</pre> */}
+                 <MultiSelect 
+                    className="multiselect-override" 
+                    overrideStrings={{allItemsAreSelected: "All Selected"}} 
+                    value={selected} 
+                    onChange={setSelected} 
+                    options={countryOptions} 
+                    labelledBy="Select" 
+                />
+            </div>
+        </React.Fragment>
+        );
+            {/*</div>
+                {/* <div className="dropdowns-controls">
                     <label>Country:</label>
                     <select>
                         <option value='all'>Select/Deselect All</option>
@@ -77,9 +109,8 @@ const Dropdowns = () => {
                         <option value='high_yield'>HIGH YIELD</option>
                         <option value='h_p_hk'>MTN_PRIMARY_HK</option>
                     </select>
-                </div>
-        </React.Fragment>
-    );
+                </div> */}
+    
 }
 
 export default Dropdowns;
