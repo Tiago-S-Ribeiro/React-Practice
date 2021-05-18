@@ -9,6 +9,7 @@
     border: 0.1px solid black;
     margin-right: 2rem;
     margin-left: 5.5rem;
+    padding-left: 0.7rem;
 }
 
 .input-controls label {
@@ -17,4 +18,9 @@
 
 #isin {
     margin-left: 6.4rem;
+}
+
+.input-controls input:focus, textarea:focus, select:focus{
+    outline: none;
+    background-color: rgb(235, 235, 235);
 }
