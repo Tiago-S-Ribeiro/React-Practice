@@ -21,9 +21,7 @@ const Dropdowns = () => {
         
         <React.Fragment>
             <div className="dropdowns-controls">
-                {/* <span>Country:</span> */}
                 <label>Country:</label>
-                {/* <pre>Country:</pre> */}
                  <MultiSelect 
                     className="multiselect-override" 
                     overrideStrings={{allItemsAreSelected: "All Selected"}} 
