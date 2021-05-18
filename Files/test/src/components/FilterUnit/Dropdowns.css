@@ -11,11 +11,11 @@
     --rmsc-selected: white !important;
     --rmsc-hover: white !important;
     --rmsc-border: black !important;
-    font-size: smaller;
+    font-size: xx-small;
     font-weight: bolder;
 } 
 
 .dropdowns-controls label {
-    padding-top: 0.3rem;
+    padding-top: 0.25rem;
     float: left;
 }
