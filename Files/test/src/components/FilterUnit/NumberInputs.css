@@ -1,12 +1,50 @@
 .number-input-controls {
-    display: inline;
-    padding: 0.4rem 0 0.4rem 0;
+    display: flex;
+    flex-direction: row;
+    padding: 0.2rem 0 0.4rem 0;
+}
+
+.number-input-controls input {
+    width: 7.94rem;
+    border-radius: 1rem;
+    border: 0.1px solid black;
+    padding-left: 0.8rem;
+    height: 1.19rem;
+    text-align: center;
+}
+
+.x {
+    padding-top: 0.1rem;
+    margin-left: 0.3rem;
+    margin-right: 0.25rem;
+}
+
+.svg-icon-num {
+    width: 1.45em;
+    height: 1.45em;
+    margin-left: 0.3rem;
+    margin-right: 0.2rem;
+}
+  
+.svg-icon-num path, .svg-icon-num polygon, .svg-icon-num rect {
+    fill: black;
+}
+  
+.svg-icon-num circle {
+    stroke: black;
+    stroke-width: 1;
+}
+
+.number-input-controls input:focus, textarea:focus, select:focus{
+    outline: none;
+    background-color: rgb(235, 235, 235);
 }
 
 #axis-size-from {
     float: left;
-    padding-left: 0.2rem;
-    padding-top: 0.3rem;
+    padding-left: 0.5rem;
+    padding-top: 0.2rem;
+    margin-right: 0.77rem;
 }
 
 #axis-size-to {

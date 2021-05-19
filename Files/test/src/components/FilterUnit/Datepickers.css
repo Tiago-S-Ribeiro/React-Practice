@@ -1,14 +1,19 @@
  .date-controls {
     display: flex;
+    flex-direction: row;
     padding: 0.4rem 0 0.4rem 0;
 }
 
 .date-controls input {
-    width: 7.92rem;
+    width: 7.94rem;
     text-align: center;
     border-radius: 1rem;
     border: 0.1px solid black;
     margin-left: 0;
+}
+
+.date-controls input:focus, textarea:focus, select:focus{
+    outline: none;
 }
 
 /* .react-datepicker-wrapper {
@@ -17,22 +22,21 @@
 
 } */
 
-.svg-icon {
-    padding-left: 0.1rem;
+.svg-icon-date {
+    margin-left: 0.3rem;
+    margin-right: 0.2rem;
     width: 1.45em;
     height: 1.45em;
-  }
+}
   
-  .svg-icon path,
-  .svg-icon polygon,
-  .svg-icon rect {
+.svg-icon-date path, .svg-icon-date polygon, .svg-icon-date rect {
     fill: black;
-  }
+}
   
-  .svg-icon circle {
+.svg-icon-date circle {
     stroke: black;
     stroke-width: 1.5;
-  }
+}
 
 #maturity-from {
     float: left;

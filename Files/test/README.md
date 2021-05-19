@@ -1,3 +1,6 @@
+http://svgicons.sparkk.fr/
+https://www.npmjs.com/package/react-multi-select-component
+https://reactdatepicker.com/
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
