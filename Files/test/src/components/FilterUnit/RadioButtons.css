@@ -3,7 +3,7 @@
     margin-right: 1.2rem;
 }
 
-.first-radio-div input[type='radio']:checked:after, .second-radio-div input[type='radio']:checked:after, .third-radio-divinput [type='radio']:checked:after {
+.first-radio-div input[type='radio']:checked:after, .second-radio-div input[type='radio']:checked:after, .third-radio-div input[type='radio']:checked:after {
     width: 14px;
     height: 14px;
     border-radius: 14px;
