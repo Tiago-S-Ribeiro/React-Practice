@@ -9,22 +9,16 @@
     text-align: center;
     border-radius: 1rem;
     border: 0.1px solid black;
-    margin-left: 0;
+    margin-left: -0.18rem;
 }
 
 .date-controls input:focus, textarea:focus, select:focus{
     outline: none;
 }
 
-/* .react-datepicker-wrapper {
-    width: 100% !important;
-    display: block !important;
-
-} */
-
 .svg-icon-date {
-    margin-left: 0.3rem;
-    margin-right: 0.2rem;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
     width: 1.45em;
     height: 1.45em;
 }

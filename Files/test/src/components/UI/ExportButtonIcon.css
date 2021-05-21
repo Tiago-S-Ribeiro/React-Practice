@@ -1,0 +1,40 @@
+.icon {
+    position: relative;
+}
+
+.icon:before {
+    content: "Export to Excel File";
+    position: absolute;
+    top: 50%;
+    transform: translateY(115%);
+    left: -280%;
+    margin-left: 15px;
+    width: 7rem;
+    padding: 0.1rem 0.2rem 0.2rem 0.2rem;
+    border-radius: 1rem;
+    background: white;
+    border: 1px solid rgb(144, 19, 175);
+    color: black;
+    text-align: center;
+    display: none;
+}
+
+.icon:hover:before {
+    display: block;
+}
+
+.svg-icon-export {
+    width: 2.5em;
+    height: 2.5em;
+  }
+  
+  .svg-icon-export path,
+  .svg-icon-export polygon,
+  .svg-icon-export rect {
+    fill: #14b11c;
+  }
+  
+  .svg-icon-export circle {
+    stroke: #14b11c;
+    stroke-width: 1;
+  }

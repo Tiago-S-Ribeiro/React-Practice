@@ -11,6 +11,7 @@
     --rmsc-selected: white !important;
     --rmsc-hover: white !important;
     --rmsc-border: black !important;
+    --rmsc-main: rgb(144, 19, 175) !important;
     font-size: xx-small;
     font-weight: bolder;
 } 

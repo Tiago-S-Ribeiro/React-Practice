@@ -1,0 +1,22 @@
+.button-styling {
+    cursor: pointer;
+    font: inherit;
+    background-color: rgb(194, 235, 190);
+    color: white;
+    border: 1.5px solid;
+    border-color: transparent;
+    padding: 0.1em 0.4em;
+    font-size: 1em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+    border-radius: 0.3em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: normal;
+}
+
+.button-styling:hover, .button-styling:active {
+    border-color: rgb(144, 19, 175);
+    box-shadow: 0.28em 0.3em 0.3em -0.2em rgb(194, 123, 212);
+    cursor: pointer;
+}

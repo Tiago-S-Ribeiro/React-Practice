@@ -3,13 +3,19 @@
     flex-direction: row;
     justify-content: center;
     font-weight: bolder;
-    background-color: black;
+    background-color: white;
 }
 
-.div-x {
-    background-color: aqua;
+.left-block {
+    background-color: white;
+    padding-left: 0.9rem;
 }
 
-.div-y {
-    background-color: brown;
+.right-block {
+    background-color: white;
+}
+
+.export-block {
+    margin-left: -3rem;
+    margin-top: 0.4rem;
 }
