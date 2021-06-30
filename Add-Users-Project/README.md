@@ -1,18 +1,14 @@
-<div align="center">
-    <h1>Add Users Project</h1>
-</div>
+### Small Project: Adding users to a list
 
-<br/>
-<div align="center">
-  <img align="center" src="../Files/add-users-project/Screenshot_2.png">
-</div>
+-------------------------------
 
-<br/>
-<div align="center">
-  <img align="center" src="../Files/add-users-project/Screenshot_3.png">
-</div>
+#### Test Project:
+![add_users](./add_users_1.png)
 
-<br/>
-<div align="center">
-  <img align="center" src="../Files/add-users-project/Screenshot_4.png">
-</div>
+-------------------------------
+![add_users](./add_users_2.png)
+
+-------------------------------
+![add_users](./add_users_3.png)
+
+-------------------------------
