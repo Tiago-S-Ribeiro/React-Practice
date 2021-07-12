@@ -4,6 +4,12 @@ import Async from './Async'
 
 describe('Async component', () => {
     test('renders post if request suceeds', async () => {
+        window.fetch = jest.fn();
+        window.fetch.mockResolvedValueOnce({
+            json: async () => {
+                return [{id:'p1', title:'First'}]
+            }
+        });
         render(<Async/>);
 
         //https://www.w3.org/TR/html-aria/#docconformance
